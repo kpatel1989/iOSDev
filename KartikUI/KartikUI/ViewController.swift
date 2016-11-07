@@ -1,22 +1,21 @@
 //
 //  ViewController.swift
-//  KartikHelloWorld
+//  KartikUI
 //
-//  Created by macadmin on 2016-11-04.
+//  Created by macadmin on 2016-11-07.
 //  Copyright © 2016 LambtonCollege. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+
+    @IBOutlet weak var outputLabel: UILabel!
     
-    @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var inputText: UITextField!
     
-    @IBOutlet weak var textName: UITextField!
-    
-    @IBAction func saveBtnClick(_ sender: UIButton) {
-        resultLabel.text = "Hello " + textName.text!;
-        
+    @IBAction func btnClickAction(_ sender: UIButton) {
+        outputLabel.text = "Welcome " + inputText.text!
     }
     
     override func viewDidLoad() {
