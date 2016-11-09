@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Lower Right"; ObjectID = "HXc-TD-LLO"; */
+"HXc-TD-LLO.text" = "Lower Right";
+
+/* Class = "UILabel"; text = "Lower Left"; ObjectID = "PYu-6k-4SZ"; */
+"PYu-6k-4SZ.text" = "Lower Left";
+
+/* Class = "UILabel"; text = "Upper Right"; ObjectID = "QVI-hW-cYv"; */
+"QVI-hW-cYv.text" = "Upper Right";
+
+/* Class = "UILabel"; text = "Middle Left"; ObjectID = "eF0-h5-zr3"; */
+"eF0-h5-zr3.text" = "Middle Left";
+
+/* Class = "UILabel"; text = "Upper Left"; ObjectID = "neZ-Ef-2MD"; */
+"neZ-Ef-2MD.text" = "Upper Left";
+
+/* Class = "UILabel"; text = "Middle Right"; ObjectID = "o6y-ZR-nEW"; */
+"o6y-ZR-nEW.text" = "Middle Right";
