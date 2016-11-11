@@ -65,7 +65,6 @@ class ViewController: UIViewController {
         UIView.setAnimationTransition(.flipFromRight,for: view, cache: true)
         if (currentPage == nil) {
             switchViewController(from: nil, to: page2)
-            
         } else if (currentPage == page2) {
             switchViewController(from: page2, to: page3)
         } else {
