@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464ACC781DD604E200C3505B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464ACC771DD604E200C3505B /* AppDelegate.swift */; };
+		464ACC7A1DD604E200C3505B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464ACC791DD604E200C3505B /* ViewController.swift */; };
+		464ACC7D1DD604E200C3505B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464ACC7B1DD604E200C3505B /* Main.storyboard */; };
+		464ACC7F1DD604E200C3505B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464ACC7E1DD604E200C3505B /* Assets.xcassets */; };
+		464ACC821DD604E200C3505B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464ACC801DD604E200C3505B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		464ACC741DD604E200C3505B /* KartikControlFunWithCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartikControlFunWithCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464ACC771DD604E200C3505B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		464ACC791DD604E200C3505B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		464ACC7C1DD604E200C3505B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		464ACC7E1DD604E200C3505B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		464ACC811DD604E200C3505B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		464ACC831DD604E200C3505B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464ACC711DD604E200C3505B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464ACC6B1DD604E200C3505B = {
+			isa = PBXGroup;
+			children = (
+				464ACC761DD604E200C3505B /* KartikControlFunWithCode */,
+				464ACC751DD604E200C3505B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		464ACC751DD604E200C3505B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464ACC741DD604E200C3505B /* KartikControlFunWithCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464ACC761DD604E200C3505B /* KartikControlFunWithCode */ = {
+			isa = PBXGroup;
+			children = (
+				464ACC771DD604E200C3505B /* AppDelegate.swift */,
+				464ACC791DD604E200C3505B /* ViewController.swift */,
+				464ACC7B1DD604E200C3505B /* Main.storyboard */,
+				464ACC7E1DD604E200C3505B /* Assets.xcassets */,
+				464ACC801DD604E200C3505B /* LaunchScreen.storyboard */,
+				464ACC831DD604E200C3505B /* Info.plist */,
+			);
+			path = KartikControlFunWithCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464ACC731DD604E200C3505B /* KartikControlFunWithCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464ACC861DD604E200C3505B /* Build configuration list for PBXNativeTarget "KartikControlFunWithCode" */;
+			buildPhases = (
+				464ACC701DD604E200C3505B /* Sources */,
+				464ACC711DD604E200C3505B /* Frameworks */,
+				464ACC721DD604E200C3505B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KartikControlFunWithCode;
+			productName = KartikControlFunWithCode;
+			productReference = 464ACC741DD604E200C3505B /* KartikControlFunWithCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464ACC6C1DD604E200C3505B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LambtonCollege;
+				TargetAttributes = {
+					464ACC731DD604E200C3505B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 464ACC6F1DD604E200C3505B /* Build configuration list for PBXProject "KartikControlFunWithCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 464ACC6B1DD604E200C3505B;
+			productRefGroup = 464ACC751DD604E200C3505B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464ACC731DD604E200C3505B /* KartikControlFunWithCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464ACC721DD604E200C3505B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464ACC821DD604E200C3505B /* LaunchScreen.storyboard in Resources */,
+				464ACC7F1DD604E200C3505B /* Assets.xcassets in Resources */,
+				464ACC7D1DD604E200C3505B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464ACC701DD604E200C3505B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464ACC7A1DD604E200C3505B /* ViewController.swift in Sources */,
+				464ACC781DD604E200C3505B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		464ACC7B1DD604E200C3505B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464ACC7C1DD604E200C3505B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		464ACC801DD604E200C3505B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464ACC811DD604E200C3505B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		464ACC841DD604E200C3505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		464ACC851DD604E200C3505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		464ACC871DD604E200C3505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KartikControlFunWithCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kp.KartikControlFunWithCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		464ACC881DD604E200C3505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KartikControlFunWithCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kp.KartikControlFunWithCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464ACC6F1DD604E200C3505B /* Build configuration list for PBXProject "KartikControlFunWithCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464ACC841DD604E200C3505B /* Debug */,
+				464ACC851DD604E200C3505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464ACC861DD604E200C3505B /* Build configuration list for PBXNativeTarget "KartikControlFunWithCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464ACC871DD604E200C3505B /* Debug */,
+				464ACC881DD604E200C3505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 464ACC6C1DD604E200C3505B /* Project object */;
+}
