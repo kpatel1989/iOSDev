@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Gujarat</key>
+	<array>
+		<string>Ahmedabad</string>
+		<string></string>
+	</array>
+	<key>Maharastra</key>
+	<array/>
+	<key>Madhya Pradesh</key>
+	<array/>
+	<key>J &amp; K</key>
+	<array/>
+	<key>Punjab</key>
+	<array/>
+	<key>Haryana</key>
+	<array/>
+</dict>
+</plist>

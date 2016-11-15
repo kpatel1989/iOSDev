@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		46133D7F1DDA281D00DCDBDD /* KartikDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46133D7E1DDA281D00DCDBDD /* KartikDouble.swift */; };
+		463EDD051DDB4C7A00DD0B0C /* KartikDependent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EDD041DDB4C7A00DD0B0C /* KartikDependent.swift */; };
+		463EDD091DDB513C00DD0B0C /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 463EDD081DDB513C00DD0B0C /* statedictionary.plist */; };
+		463EDD0B1DDB5E9300DD0B0C /* KartikCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EDD0A1DDB5E9300DD0B0C /* KartikCustom.swift */; };
+		463EDD0E1DDB617A00DD0B0C /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 463EDD0C1DDB617A00DD0B0C /* crunch.wav */; };
+		463EDD0F1DDB617A00DD0B0C /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 463EDD0D1DDB617A00DD0B0C /* win.wav */; };
 		46F2363C1DD9F95300D3515E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2363B1DD9F95300D3515E /* AppDelegate.swift */; };
 		46F2363E1DD9F95300D3515E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2363D1DD9F95300D3515E /* ViewController.swift */; };
 		46F236411DD9F95300D3515E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F2363F1DD9F95300D3515E /* Main.storyboard */; };
@@ -19,6 +24,11 @@
 
 /* Begin PBXFileReference section */
 		46133D7E1DDA281D00DCDBDD /* KartikDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikDouble.swift; sourceTree = "<group>"; };
+		463EDD041DDB4C7A00DD0B0C /* KartikDependent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikDependent.swift; sourceTree = "<group>"; };
+		463EDD081DDB513C00DD0B0C /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		463EDD0A1DDB5E9300DD0B0C /* KartikCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikCustom.swift; sourceTree = "<group>"; };
+		463EDD0C1DDB617A00DD0B0C /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		463EDD0D1DDB617A00DD0B0C /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		46F236381DD9F95300D3515E /* KartikPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartikPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F2363B1DD9F95300D3515E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F2363D1DD9F95300D3515E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +79,11 @@
 				46F2364D1DDA0C3A00D3515E /* KartikDatePicker.swift */,
 				46F2364F1DDA0DE400D3515E /* KartikSingle.swift */,
 				46133D7E1DDA281D00DCDBDD /* KartikDouble.swift */,
+				463EDD041DDB4C7A00DD0B0C /* KartikDependent.swift */,
+				463EDD081DDB513C00DD0B0C /* statedictionary.plist */,
+				463EDD0A1DDB5E9300DD0B0C /* KartikCustom.swift */,
+				463EDD0C1DDB617A00DD0B0C /* crunch.wav */,
+				463EDD0D1DDB617A00DD0B0C /* win.wav */,
 			);
 			path = KartikPicker;
 			sourceTree = "<group>";
@@ -132,8 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463EDD0E1DDB617A00DD0B0C /* crunch.wav in Resources */,
 				46F236461DD9F95300D3515E /* LaunchScreen.storyboard in Resources */,
 				46F236431DD9F95300D3515E /* Assets.xcassets in Resources */,
+				463EDD0F1DDB617A00DD0B0C /* win.wav in Resources */,
+				463EDD091DDB513C00DD0B0C /* statedictionary.plist in Resources */,
 				46F236411DD9F95300D3515E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,8 +166,10 @@
 				46F2364E1DDA0C3A00D3515E /* KartikDatePicker.swift in Sources */,
 				46F236501DDA0DE400D3515E /* KartikSingle.swift in Sources */,
 				46F2363E1DD9F95300D3515E /* ViewController.swift in Sources */,
+				463EDD051DDB4C7A00DD0B0C /* KartikDependent.swift in Sources */,
 				46133D7F1DDA281D00DCDBDD /* KartikDouble.swift in Sources */,
 				46F2363C1DD9F95300D3515E /* AppDelegate.swift in Sources */,
+				463EDD0B1DDB5E9300DD0B0C /* KartikCustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

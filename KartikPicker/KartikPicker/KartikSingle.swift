@@ -10,28 +10,23 @@ import UIKit
 
 class KartikSingle: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource {
 
+    @IBOutlet weak var resultlabel: UILabel!
     @IBOutlet weak var kartikPicker: UIPickerView!
     fileprivate let characterNames = ["Luke", "Leia", "Han", "Chewbacca", "Artoo",
         "Threepio", "Lando"]
 
-    @IBOutlet weak var resultlabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
 
     @IBAction func btnPressed(_ sender: AnyObject) {
-//        let index = kartikPicker.selectedRow(inComponent: 0)
-//        resultlabel.text = characterNames[index]
+        resultlabel.text = characterNames[kartikPicker.selectedRow(inComponent: 0)]
     }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

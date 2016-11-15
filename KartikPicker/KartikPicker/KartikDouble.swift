@@ -10,8 +10,9 @@ import UIKit
 
 class KartikDouble: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
 
-    fileprivate let characterNames = ["Luke", "Leia", "Han", "Chewbacca", "Artoo",
-                                      "Threepio", "Lando"]
+    let breads = ["9 Grain", "Whole Wheat", "Italian"]
+    let meat = ["Pepperoni", "Salami", "Turkey", "Ham", "Roast Beaf"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,11 +24,11 @@ class KartikDouble: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return characterNames.count
+        return component == 0 ? breads.count : meat.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return characterNames[row]
+        return component == 0 ? breads[row] : meat[row]
     }
     
     override func didReceiveMemoryWarning() {
