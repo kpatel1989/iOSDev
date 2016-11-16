@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KartikLabTest1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0U1-hw-Pmb">
+                                <frame key="frameInset" minY="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem title="Switch View" id="5c3-sj-SAk">
+                                        <connections>
+                                            <action selector="kartikToolbarSwitchBtnClickAction:" destination="BYZ-38-t0r" id="bkg-8g-gXb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Kartik Page3-->
+        <scene sceneID="byF-ry-FOa">
+            <objects>
+                <viewController storyboardIdentifier="Page3" id="V4u-Oc-OSp" customClass="KartikPage3" customModule="KartikLabTest1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DM8-zK-fq7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Exu-4g-2x8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qgV-ae-WTC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k0E-aI-lgd">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYh-A3-4Xp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="oJy-v0-SGd"/>
+                                </constraints>
+                                <state key="normal" title="Button 1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vL-gc-KIh">
+                                <state key="normal" title="Button 2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eim-JS-uIT">
+                                <state key="normal" title="Button 3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8g-cJ-Jor">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="JaP-9R-5Vb"/>
+                                    <constraint firstAttribute="width" constant="76" id="URZ-pG-3Eo"/>
+                                </constraints>
+                                <state key="normal" title="Button 4"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3460310996" green="0.81582736970000003" blue="0.90889793630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="H8g-cJ-Jor" secondAttribute="trailing" constant="44" id="9eN-Ql-SZF">
+                                <variation key="widthClass=compact" constant="19"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="61"/>
+                            </constraint>
+                            <constraint firstItem="3vL-gc-KIh" firstAttribute="baseline" secondItem="H8g-cJ-Jor" secondAttribute="firstBaseline" id="BVH-Gf-HQe">
+                                <variation key="heightClass=regular" constant="-5"/>
+                            </constraint>
+                            <constraint firstItem="lYh-A3-4Xp" firstAttribute="trailing" secondItem="3vL-gc-KIh" secondAttribute="trailing" id="Hfg-XP-506">
+                                <variation key="widthClass=compact" constant="-2"/>
+                            </constraint>
+                            <constraint firstItem="lYh-A3-4Xp" firstAttribute="top" secondItem="k0E-aI-lgd" secondAttribute="bottom" constant="18" id="Ho9-Pv-Opq">
+                                <variation key="widthClass=compact" constant="-327"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="29"/>
+                            </constraint>
+                            <constraint firstItem="3vL-gc-KIh" firstAttribute="top" secondItem="lYh-A3-4Xp" secondAttribute="bottom" constant="42" id="Hqh-Ea-nhq">
+                                <variation key="widthClass=compact" constant="203"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="eim-JS-uIT" firstAttribute="centerX" secondItem="H8g-cJ-Jor" secondAttribute="centerX" id="NKL-h2-Bfg"/>
+                            <constraint firstItem="lYh-A3-4Xp" firstAttribute="centerY" secondItem="eim-JS-uIT" secondAttribute="centerY" id="Tcm-u0-Ava"/>
+                            <constraint firstItem="3vL-gc-KIh" firstAttribute="leading" secondItem="qgV-ae-WTC" secondAttribute="leadingMargin" constant="40" id="UhS-qA-mAY">
+                                <variation key="widthClass=compact" constant="27"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="55"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="eim-JS-uIT" secondAttribute="trailing" constant="36" id="WwC-9R-PUi">
+                                <variation key="widthClass=compact" constant="11"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="53"/>
+                            </constraint>
+                            <constraint firstItem="eim-JS-uIT" firstAttribute="top" secondItem="k0E-aI-lgd" secondAttribute="bottom" constant="13" id="b7O-Uh-SnS">
+                                <variation key="widthClass=compact" constant="-332"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="24"/>
+                            </constraint>
+                            <constraint firstItem="Exu-4g-2x8" firstAttribute="top" secondItem="3vL-gc-KIh" secondAttribute="bottom" constant="54" id="cuR-hl-BuR">
+                                <variation key="widthClass=compact" constant="77"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="52"/>
+                            </constraint>
+                            <constraint firstItem="H8g-cJ-Jor" firstAttribute="baseline" secondItem="3vL-gc-KIh" secondAttribute="firstBaseline" id="ei9-7R-geg">
+                                <variation key="heightClass=regular" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="k0E-aI-lgd" firstAttribute="leading" secondItem="qgV-ae-WTC" secondAttribute="leadingMargin" id="i87-wE-0nN">
+                                <variation key="widthClass=compact" constant="138"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="k0E-aI-lgd" firstAttribute="top" secondItem="DM8-zK-fq7" secondAttribute="bottom" id="wZY-BD-Stl"/>
+                            <constraint firstItem="H8g-cJ-Jor" firstAttribute="top" secondItem="eim-JS-uIT" secondAttribute="bottom" constant="39" id="zFV-qJ-oOB">
+                                <variation key="widthClass=compact" constant="200"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="k0E-aI-lgd" firstAttribute="trailing" secondItem="qgV-ae-WTC" secondAttribute="trailingMargin" id="zoa-mo-vFL">
+                                <variation key="widthClass=compact" constant="-127"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-19"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2H9-tt-h40" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1324" y="33.733133433283363"/>
+        </scene>
+        <!--Kartik Page2-->
+        <scene sceneID="2gG-yp-ALo">
+            <objects>
+                <viewController storyboardIdentifier="Page2" id="tUX-wy-1ns" customClass="KartikPage2" customModule="KartikLabTest1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P6C-0j-v2B"/>
+                        <viewControllerLayoutGuide type="bottom" id="9pY-FU-o0o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xbb-fL-rZX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apress_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fQE-6T-ZzM"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXI-Bm-Mfy">
+                                <frame key="frameInset" minX="65" minY="132" width="50" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8B-We-OQ5">
+                                <frame key="frameInset" minX="48" minY="176" width="66.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Fp-8p-WEa">
+                                <frame key="frameInset" minX="137" minY="127" width="198" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7oZ-1t-LPs">
+                                <frame key="frameInset" minX="137" minY="171" width="198.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="bVb-y9-XPy">
+                                <frame key="frameInset" minX="126" minY="336" width="202" height="31"/>
+                                <connections>
+                                    <action selector="kartikSliderValueChanged:" destination="tUX-wy-1ns" eventType="valueChanged" id="15P-V0-00e"/>
+                                </connections>
+                            </slider>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="IHG-HY-hzY">
+                                <frame key="frameInset" minX="39" minY="222" width="296" height="29"/>
+                                <segments>
+                                    <segment title="Button"/>
+                                    <segment title="Switch"/>
+                                    <segment title="Slider"/>
+                                </segments>
+                                <connections>
+                                    <action selector="kartikSegmentChangeAction:" destination="tUX-wy-1ns" eventType="valueChanged" id="6Gs-iw-7oo"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhF-MC-fYn">
+                                <frame key="frameInset" minX="49" minY="337" width="57" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="9VB-Bp-8Pw"/>
+                                    <constraint firstAttribute="width" constant="57" id="Phv-3d-9b7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uch-y7-6JT">
+                                <frame key="frameInset" minX="286" minY="281" width="51" height="31"/>
+                                <connections>
+                                    <action selector="kartikLeftSwitch:" destination="tUX-wy-1ns" eventType="valueChanged" id="XDw-hl-RJM"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMs-hO-xeb">
+                                <frame key="frameInset" minX="109" minY="274" width="154" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="154" id="efX-bS-cPE"/>
+                                </constraints>
+                                <state key="normal" title="Button" backgroundImage="whiteButton"/>
+                                <state key="highlighted" backgroundImage="blueButton"/>
+                                <connections>
+                                    <action selector="kartikBtnClick:" destination="tUX-wy-1ns" eventType="touchUpInside" id="X71-Jk-Fde"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TA2-GL-Gtm">
+                                <frame key="frameInset" minX="33" minY="282" width="51" height="31"/>
+                                <connections>
+                                    <action selector="kartikLeftSwitch:" destination="tUX-wy-1ns" eventType="valueChanged" id="vcL-mG-paZ"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93660694359999996" green="0.85522705320000003" blue="0.70682734250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bVb-y9-XPy" firstAttribute="top" secondItem="eMs-hO-xeb" secondAttribute="bottom" constant="16" id="0rd-kd-fcj"/>
+                            <constraint firstItem="Uch-y7-6JT" firstAttribute="leading" secondItem="eMs-hO-xeb" secondAttribute="trailing" constant="23" id="1UO-wO-zxC"/>
+                            <constraint firstItem="iXI-Bm-Mfy" firstAttribute="leading" secondItem="xbb-fL-rZX" secondAttribute="leadingMargin" constant="49" id="3Se-h9-aK8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Fp-8p-WEa" secondAttribute="trailing" constant="24" id="4c6-dC-0tf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bVb-y9-XPy" secondAttribute="trailing" constant="33" id="5Jh-ta-7L6"/>
+                            <constraint firstItem="V8B-We-OQ5" firstAttribute="top" secondItem="iXI-Bm-Mfy" secondAttribute="bottom" constant="23" id="5Pd-TT-dG0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IHG-HY-hzY" secondAttribute="trailing" constant="24" id="63H-Li-W2u"/>
+                            <constraint firstItem="Uch-y7-6JT" firstAttribute="top" secondItem="IHG-HY-hzY" secondAttribute="bottom" constant="31" id="Dko-tX-iMS"/>
+                            <constraint firstItem="IHG-HY-hzY" firstAttribute="leading" secondItem="xbb-fL-rZX" secondAttribute="leadingMargin" constant="23" id="ENk-lE-1eb"/>
+                            <constraint firstItem="7oZ-1t-LPs" firstAttribute="top" secondItem="0Fp-8p-WEa" secondAttribute="bottom" constant="14" id="GgQ-tx-kpt"/>
+                            <constraint firstItem="iXI-Bm-Mfy" firstAttribute="top" secondItem="fQE-6T-ZzM" secondAttribute="bottom" constant="32" id="IJL-uF-iHk"/>
+                            <constraint firstItem="fQE-6T-ZzM" firstAttribute="top" secondItem="P6C-0j-v2B" secondAttribute="bottom" constant="8" id="IfB-MO-eeo"/>
+                            <constraint firstItem="fQE-6T-ZzM" firstAttribute="centerX" secondItem="xbb-fL-rZX" secondAttribute="centerX" id="LKI-84-oQx"/>
+                            <constraint firstItem="bhF-MC-fYn" firstAttribute="leading" secondItem="xbb-fL-rZX" secondAttribute="leadingMargin" constant="33" id="MqL-aE-Jen"/>
+                            <constraint firstItem="TA2-GL-Gtm" firstAttribute="leading" secondItem="xbb-fL-rZX" secondAttribute="leadingMargin" constant="17" id="R4I-q4-t3M"/>
+                            <constraint firstItem="0Fp-8p-WEa" firstAttribute="top" secondItem="fQE-6T-ZzM" secondAttribute="bottom" constant="27" id="Stk-9N-Rhi"/>
+                            <constraint firstItem="0Fp-8p-WEa" firstAttribute="leading" secondItem="iXI-Bm-Mfy" secondAttribute="trailing" constant="22" id="XM8-NU-CKJ"/>
+                            <constraint firstItem="V8B-We-OQ5" firstAttribute="leading" secondItem="xbb-fL-rZX" secondAttribute="leadingMargin" constant="32" id="lP4-ZT-Caq"/>
+                            <constraint firstItem="IHG-HY-hzY" firstAttribute="top" secondItem="7oZ-1t-LPs" secondAttribute="bottom" constant="21" id="qTB-5k-wN0"/>
+                            <constraint firstItem="7oZ-1t-LPs" firstAttribute="leading" secondItem="V8B-We-OQ5" secondAttribute="trailing" constant="22" id="s2G-nr-oJZ"/>
+                            <constraint firstItem="bVb-y9-XPy" firstAttribute="leading" secondItem="bhF-MC-fYn" secondAttribute="trailing" constant="22" id="t1T-9i-0dC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7oZ-1t-LPs" secondAttribute="trailing" constant="23.5" id="tp9-RP-8kk"/>
+                            <constraint firstItem="eMs-hO-xeb" firstAttribute="top" secondItem="IHG-HY-hzY" secondAttribute="bottom" constant="24" id="wwZ-vU-ZUw"/>
+                            <constraint firstItem="bVb-y9-XPy" firstAttribute="leading" secondItem="bhF-MC-fYn" secondAttribute="trailing" constant="22" id="x7i-1m-VHw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="kartikButton" destination="eMs-hO-xeb" id="dJ7-sL-l1e"/>
+                        <outlet property="kartikLeftSwitch" destination="TA2-GL-Gtm" id="YBP-Fe-vef"/>
+                        <outlet property="kartikNameField" destination="0Fp-8p-WEa" id="F9o-09-CZx"/>
+                        <outlet property="kartikNumberField" destination="7oZ-1t-LPs" id="a0P-fi-CKO"/>
+                        <outlet property="kartikRightSwitch" destination="Uch-y7-6JT" id="Ur2-8f-fuV"/>
+                        <outlet property="kartikSegment" destination="IHG-HY-hzY" id="w60-kd-FEa"/>
+                        <outlet property="kartikSliderControl" destination="bVb-y9-XPy" id="kOq-It-KNK"/>
+                        <outlet property="kartikSliderValue" destination="bhF-MC-fYn" id="drs-Ic-raK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRN-iU-Bdk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684" y="36"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apress_logo" width="172" height="80"/>
+        <image name="blueButton" width="29" height="46"/>
+        <image name="whiteButton" width="28" height="46"/>
+    </resources>
+</document>
