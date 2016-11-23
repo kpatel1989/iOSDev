@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46165A161DE488A6003C06F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46165A151DE488A6003C06F0 /* AppDelegate.swift */; };
+		46165A1B1DE488A6003C06F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46165A191DE488A6003C06F0 /* Main.storyboard */; };
+		46165A1D1DE488A6003C06F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46165A1C1DE488A6003C06F0 /* Assets.xcassets */; };
+		46165A201DE488A6003C06F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46165A1E1DE488A6003C06F0 /* LaunchScreen.storyboard */; };
+		46165A301DE48B59003C06F0 /* KartikFontsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46165A2F1DE48B59003C06F0 /* KartikFontsController.swift */; };
+		46165A321DE48C0A003C06F0 /* KartikFontListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46165A311DE48C0A003C06F0 /* KartikFontListController.swift */; };
+		46165A341DE48C53003C06F0 /* KartikFavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46165A331DE48C53003C06F0 /* KartikFavoritesList.swift */; };
+		4673D58D1DE5D5C7008E68C3 /* KartikDependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673D58B1DE5D5C7008E68C3 /* KartikDependentComponentPickerViewController.swift */; };
+		4673D58E1DE5D5C8008E68C3 /* KartikCustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673D58C1DE5D5C7008E68C3 /* KartikCustomPickerViewController.swift */; };
+		4673D5921DE5D5F9008E68C3 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4673D58F1DE5D5F9008E68C3 /* statedictionary.plist */; };
+		4673D5931DE5D5F9008E68C3 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4673D5901DE5D5F9008E68C3 /* crunch.wav */; };
+		4673D5941DE5D5F9008E68C3 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4673D5911DE5D5F9008E68C3 /* win.wav */; };
+		4673D5961DE5DAF8008E68C3 /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4673D5951DE5DAF8008E68C3 /* NameAndColorCell.xib */; };
+		4673D5981DE5DBC9008E68C3 /* NameAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673D5971DE5DBC9008E68C3 /* NameAndColorCell.swift */; };
+		4673D59C1DE5DD43008E68C3 /* KartikTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673D59B1DE5DD43008E68C3 /* KartikTableView.swift */; };
+		4687A64C1DE4AA6F006323E9 /* KartikFontInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687A64B1DE4AA6F006323E9 /* KartikFontInfoController.swift */; };
+		4687A64E1DE4AB17006323E9 /* KartikFontSizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687A64D1DE4AB17006323E9 /* KartikFontSizeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46165A121DE488A6003C06F0 /* Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46165A151DE488A6003C06F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46165A1A1DE488A6003C06F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46165A1C1DE488A6003C06F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46165A1F1DE488A6003C06F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46165A211DE488A6003C06F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46165A2F1DE48B59003C06F0 /* KartikFontsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikFontsController.swift; sourceTree = "<group>"; };
+		46165A311DE48C0A003C06F0 /* KartikFontListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikFontListController.swift; sourceTree = "<group>"; };
+		46165A331DE48C53003C06F0 /* KartikFavoritesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikFavoritesList.swift; sourceTree = "<group>"; };
+		4673D58B1DE5D5C7008E68C3 /* KartikDependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikDependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		4673D58C1DE5D5C7008E68C3 /* KartikCustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikCustomPickerViewController.swift; sourceTree = "<group>"; };
+		4673D58F1DE5D5F9008E68C3 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		4673D5901DE5D5F9008E68C3 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		4673D5911DE5D5F9008E68C3 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		4673D5951DE5DAF8008E68C3 /* NameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
+		4673D5971DE5DBC9008E68C3 /* NameAndColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCell.swift; sourceTree = "<group>"; };
+		4673D59B1DE5DD43008E68C3 /* KartikTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikTableView.swift; sourceTree = "<group>"; };
+		4687A64B1DE4AA6F006323E9 /* KartikFontInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikFontInfoController.swift; sourceTree = "<group>"; };
+		4687A64D1DE4AB17006323E9 /* KartikFontSizeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikFontSizeController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46165A0F1DE488A6003C06F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46165A091DE488A6003C06F0 = {
+			isa = PBXGroup;
+			children = (
+				46165A141DE488A6003C06F0 /* Fonts */,
+				46165A131DE488A6003C06F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46165A131DE488A6003C06F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46165A121DE488A6003C06F0 /* Fonts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46165A141DE488A6003C06F0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4673D58B1DE5D5C7008E68C3 /* KartikDependentComponentPickerViewController.swift */,
+				4673D58C1DE5D5C7008E68C3 /* KartikCustomPickerViewController.swift */,
+				46165A151DE488A6003C06F0 /* AppDelegate.swift */,
+				46165A191DE488A6003C06F0 /* Main.storyboard */,
+				46165A1C1DE488A6003C06F0 /* Assets.xcassets */,
+				46165A1E1DE488A6003C06F0 /* LaunchScreen.storyboard */,
+				46165A211DE488A6003C06F0 /* Info.plist */,
+				46165A2F1DE48B59003C06F0 /* KartikFontsController.swift */,
+				46165A311DE48C0A003C06F0 /* KartikFontListController.swift */,
+				46165A331DE48C53003C06F0 /* KartikFavoritesList.swift */,
+				4687A64B1DE4AA6F006323E9 /* KartikFontInfoController.swift */,
+				4687A64D1DE4AB17006323E9 /* KartikFontSizeController.swift */,
+				4673D58F1DE5D5F9008E68C3 /* statedictionary.plist */,
+				4673D5901DE5D5F9008E68C3 /* crunch.wav */,
+				4673D5911DE5D5F9008E68C3 /* win.wav */,
+				4673D5971DE5DBC9008E68C3 /* NameAndColorCell.swift */,
+				4673D5951DE5DAF8008E68C3 /* NameAndColorCell.xib */,
+				4673D59B1DE5DD43008E68C3 /* KartikTableView.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46165A111DE488A6003C06F0 /* Fonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46165A241DE488A6003C06F0 /* Build configuration list for PBXNativeTarget "Fonts" */;
+			buildPhases = (
+				46165A0E1DE488A6003C06F0 /* Sources */,
+				46165A0F1DE488A6003C06F0 /* Frameworks */,
+				46165A101DE488A6003C06F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fonts;
+			productName = Fonts;
+			productReference = 46165A121DE488A6003C06F0 /* Fonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46165A0A1DE488A6003C06F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LambtonCollege;
+				TargetAttributes = {
+					46165A111DE488A6003C06F0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46165A0D1DE488A6003C06F0 /* Build configuration list for PBXProject "Fonts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46165A091DE488A6003C06F0;
+			productRefGroup = 46165A131DE488A6003C06F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46165A111DE488A6003C06F0 /* Fonts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46165A101DE488A6003C06F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4673D5931DE5D5F9008E68C3 /* crunch.wav in Resources */,
+				4673D5961DE5DAF8008E68C3 /* NameAndColorCell.xib in Resources */,
+				46165A201DE488A6003C06F0 /* LaunchScreen.storyboard in Resources */,
+				46165A1D1DE488A6003C06F0 /* Assets.xcassets in Resources */,
+				4673D5941DE5D5F9008E68C3 /* win.wav in Resources */,
+				4673D5921DE5D5F9008E68C3 /* statedictionary.plist in Resources */,
+				46165A1B1DE488A6003C06F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46165A0E1DE488A6003C06F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46165A321DE48C0A003C06F0 /* KartikFontListController.swift in Sources */,
+				4687A64C1DE4AA6F006323E9 /* KartikFontInfoController.swift in Sources */,
+				46165A341DE48C53003C06F0 /* KartikFavoritesList.swift in Sources */,
+				4673D59C1DE5DD43008E68C3 /* KartikTableView.swift in Sources */,
+				4687A64E1DE4AB17006323E9 /* KartikFontSizeController.swift in Sources */,
+				4673D58D1DE5D5C7008E68C3 /* KartikDependentComponentPickerViewController.swift in Sources */,
+				46165A301DE48B59003C06F0 /* KartikFontsController.swift in Sources */,
+				4673D5981DE5DBC9008E68C3 /* NameAndColorCell.swift in Sources */,
+				4673D58E1DE5D5C8008E68C3 /* KartikCustomPickerViewController.swift in Sources */,
+				46165A161DE488A6003C06F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46165A191DE488A6003C06F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46165A1A1DE488A6003C06F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46165A1E1DE488A6003C06F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46165A1F1DE488A6003C06F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46165A221DE488A6003C06F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46165A231DE488A6003C06F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46165A251DE488A6003C06F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kp.Fonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46165A261DE488A6003C06F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kp.Fonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46165A0D1DE488A6003C06F0 /* Build configuration list for PBXProject "Fonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46165A221DE488A6003C06F0 /* Debug */,
+				46165A231DE488A6003C06F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46165A241DE488A6003C06F0 /* Build configuration list for PBXNativeTarget "Fonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46165A251DE488A6003C06F0 /* Debug */,
+				46165A261DE488A6003C06F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46165A0A1DE488A6003C06F0 /* Project object */;
+}

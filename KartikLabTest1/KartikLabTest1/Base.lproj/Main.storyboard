@@ -38,6 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="63" y="36"/>
         </scene>
         <!--Kartik Page3-->
         <scene sceneID="byF-ry-FOa">
@@ -148,38 +149,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apress_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fQE-6T-ZzM"/>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXI-Bm-Mfy">
-                                <frame key="frameInset" minX="65" minY="132" width="50" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXI-Bm-Mfy">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8B-We-OQ5">
-                                <frame key="frameInset" minX="48" minY="176" width="66.5" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8B-We-OQ5">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Fp-8p-WEa">
-                                <frame key="frameInset" minX="137" minY="127" width="198" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Fp-8p-WEa">
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7oZ-1t-LPs">
-                                <frame key="frameInset" minX="137" minY="171" width="198.5" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7oZ-1t-LPs">
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="bVb-y9-XPy">
-                                <frame key="frameInset" minX="126" minY="336" width="202" height="31"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="bVb-y9-XPy">
                                 <connections>
                                     <action selector="kartikSliderValueChanged:" destination="tUX-wy-1ns" eventType="valueChanged" id="15P-V0-00e"/>
                                 </connections>
                             </slider>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="IHG-HY-hzY">
-                                <frame key="frameInset" minX="39" minY="222" width="296" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="IHG-HY-hzY">
                                 <segments>
                                     <segment title="Button"/>
                                     <segment title="Switch"/>
@@ -189,8 +184,7 @@
                                     <action selector="kartikSegmentChangeAction:" destination="tUX-wy-1ns" eventType="valueChanged" id="6Gs-iw-7oo"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhF-MC-fYn">
-                                <frame key="frameInset" minX="49" minY="337" width="57" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhF-MC-fYn">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="9VB-Bp-8Pw"/>
                                     <constraint firstAttribute="width" constant="57" id="Phv-3d-9b7"/>
@@ -199,14 +193,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uch-y7-6JT">
-                                <frame key="frameInset" minX="286" minY="281" width="51" height="31"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uch-y7-6JT">
                                 <connections>
                                     <action selector="kartikLeftSwitch:" destination="tUX-wy-1ns" eventType="valueChanged" id="XDw-hl-RJM"/>
                                 </connections>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMs-hO-xeb">
-                                <frame key="frameInset" minX="109" minY="274" width="154" height="46"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMs-hO-xeb">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="154" id="efX-bS-cPE"/>
                                 </constraints>
@@ -216,8 +208,7 @@
                                     <action selector="kartikBtnClick:" destination="tUX-wy-1ns" eventType="touchUpInside" id="X71-Jk-Fde"/>
                                 </connections>
                             </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TA2-GL-Gtm">
-                                <frame key="frameInset" minX="33" minY="282" width="51" height="31"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TA2-GL-Gtm">
                                 <connections>
                                     <action selector="kartikLeftSwitch:" destination="tUX-wy-1ns" eventType="valueChanged" id="vcL-mG-paZ"/>
                                 </connections>
@@ -232,6 +223,8 @@
                             <constraint firstAttribute="trailingMargin" secondItem="bVb-y9-XPy" secondAttribute="trailing" constant="33" id="5Jh-ta-7L6"/>
                             <constraint firstItem="V8B-We-OQ5" firstAttribute="top" secondItem="iXI-Bm-Mfy" secondAttribute="bottom" constant="23" id="5Pd-TT-dG0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="IHG-HY-hzY" secondAttribute="trailing" constant="24" id="63H-Li-W2u"/>
+                            <constraint firstItem="bhF-MC-fYn" firstAttribute="centerY" secondItem="bVb-y9-XPy" secondAttribute="centerY" id="6sR-6q-gK9"/>
+                            <constraint firstItem="bhF-MC-fYn" firstAttribute="top" secondItem="TA2-GL-Gtm" secondAttribute="bottom" constant="24" id="Awq-aE-vjh"/>
                             <constraint firstItem="Uch-y7-6JT" firstAttribute="top" secondItem="IHG-HY-hzY" secondAttribute="bottom" constant="31" id="Dko-tX-iMS"/>
                             <constraint firstItem="IHG-HY-hzY" firstAttribute="leading" secondItem="xbb-fL-rZX" secondAttribute="leadingMargin" constant="23" id="ENk-lE-1eb"/>
                             <constraint firstItem="7oZ-1t-LPs" firstAttribute="top" secondItem="0Fp-8p-WEa" secondAttribute="bottom" constant="14" id="GgQ-tx-kpt"/>
@@ -249,6 +242,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="7oZ-1t-LPs" secondAttribute="trailing" constant="23.5" id="tp9-RP-8kk"/>
                             <constraint firstItem="eMs-hO-xeb" firstAttribute="top" secondItem="IHG-HY-hzY" secondAttribute="bottom" constant="24" id="wwZ-vU-ZUw"/>
                             <constraint firstItem="bVb-y9-XPy" firstAttribute="leading" secondItem="bhF-MC-fYn" secondAttribute="trailing" constant="22" id="x7i-1m-VHw"/>
+                            <constraint firstItem="Uch-y7-6JT" firstAttribute="trailing" secondItem="IHG-HY-hzY" secondAttribute="trailing" id="xji-xY-WF3"/>
                         </constraints>
                     </view>
                     <connections>
