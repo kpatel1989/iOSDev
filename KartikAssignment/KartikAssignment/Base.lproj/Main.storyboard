@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mkK-GF-tv4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="hqU-UD-9o0">
+            <objects>
+                <navigationController id="mkK-GF-tv4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g04-bK-tad">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kAZ-dN-2kL" kind="relationship" relationship="rootViewController" id="5NV-LQ-IaN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iC6-jR-5dE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1020" y="-20"/>
+        </scene>
+        <!--Kartik Question1 Controller-->
+        <scene sceneID="WhK-Ke-0qX">
+            <objects>
+                <viewController id="kAZ-dN-2kL" customClass="KartikQuestion1Controller" customModule="KartikAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gb9-9t-Use"/>
+                        <viewControllerLayoutGuide type="bottom" id="mU7-6J-7XN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yuF-AY-8O3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EGI-hG-31u"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7z9-2o-bCK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-292" y="-20"/>
+        </scene>
+        <!--Kartik Question2 Controller-->
+        <scene sceneID="wF6-30-T04">
+            <objects>
+                <viewController id="p4C-Sc-ZiW" customClass="KartikQuestion2Controller" customModule="KartikAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gbe-1C-l3m"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vhz-ug-b3O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EVE-jg-GFs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vyx-z2-k6V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="-30"/>
+        </scene>
+        <!--Kartik Question3 Controller-->
+        <scene sceneID="yy1-cO-rgJ">
+            <objects>
+                <viewController id="kk9-Ol-l63" customClass="KartikQuestion3Controller" customModule="KartikAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KJJ-Mt-dfR"/>
+                        <viewControllerLayoutGuide type="bottom" id="115-Qv-tBo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nov-vu-Rx1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R3e-cn-mK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1224" y="-34"/>
+        </scene>
+        <!--Kartik Question4 Controller-->
+        <scene sceneID="iCq-za-bjq">
+            <objects>
+                <viewController id="Nqq-vG-rfW" customClass="KartikQuestion4Controller" customModule="KartikAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DXp-dg-wMT"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Mt-6a-XVV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gAY-jN-S2K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pl1-Bh-uRO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1906" y="-38"/>
+        </scene>
+        <!--Kartik Question5 Controller-->
+        <scene sceneID="Fh6-jY-iAY">
+            <objects>
+                <viewController id="Yga-x2-bvL" customClass="KartikQuestion5Controller" customModule="KartikAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Tp-C5-lB0"/>
+                        <viewControllerLayoutGuide type="bottom" id="W46-Lb-6uu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vXJ-ks-h8z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIs-UR-ejk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2549" y="-44"/>
+        </scene>
+    </scenes>
+</document>
