@@ -22,6 +22,7 @@
 		46FDF2991DE7241A00F1279E /* KartikQuestion2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2971DE7241A00F1279E /* KartikQuestion2TableViewCell.swift */; };
 		46FDF29A1DE7241A00F1279E /* KartikQuestion2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */; };
 		46FDF2A51DE7244C00F1279E /* KartikQuestion5TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2A31DE7244C00F1279E /* KartikQuestion5TableViewCell.swift */; };
+		46FDF2E61DE870CD00F1279E /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2E51DE870CD00F1279E /* QuestionBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		46FDF2971DE7241A00F1279E /* KartikQuestion2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikQuestion2TableViewCell.swift; sourceTree = "<group>"; };
 		46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KartikQuestion2TableViewCell.xib; sourceTree = "<group>"; };
 		46FDF2A31DE7244C00F1279E /* KartikQuestion5TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikQuestion5TableViewCell.swift; sourceTree = "<group>"; };
+		46FDF2E51DE870CD00F1279E /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				46FDF2A31DE7244C00F1279E /* KartikQuestion5TableViewCell.swift */,
 				46FDF2941DE723FF00F1279E /* KartikQuestion1TableViewCell.xib */,
 				46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */,
+				46FDF2E51DE870CD00F1279E /* QuestionBank.swift */,
 			);
 			path = KartikAssignment;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				46FDF2991DE7241A00F1279E /* KartikQuestion2TableViewCell.swift in Sources */,
 				46FDF2861DE71F3300F1279E /* KartikQuestion4Controller.swift in Sources */,
 				46FDF26C1DE7177D00F1279E /* AppDelegate.swift in Sources */,
+				46FDF2E61DE870CD00F1279E /* QuestionBank.swift in Sources */,
 				46FDF2821DE71F1300F1279E /* KartikQuestion2Controller.swift in Sources */,
 				46FDF2801DE71F0400F1279E /* KartikQuestion1Controller.swift in Sources */,
 				46FDF2841DE71F2500F1279E /* KartikQuestion3Controller.swift in Sources */,
@@ -337,6 +341,7 @@
 				46FDF27C1DE7177D00F1279E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
