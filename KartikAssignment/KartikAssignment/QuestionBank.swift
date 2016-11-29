@@ -8,16 +8,58 @@
 
 import Foundation
 
-class QuestionBank {
-    var randomQuestions: [Int]!
+struct Source {
+    let question:String
+    let options:[String]
+    private let answer:String
     
-    init() {
-        //Bundle
-        //genereate Random numbers to display
-        
+    init(question:String,options:[String],answer:String) {
+        self.question = question
+        self.options = options
+        self.answer = answer
+    }
+}
+
+class QuestionBank {
+    public static let QuestionList = QuestionBank()
+    
+    var TOTAL_QUESTIONS:Int
+    var randomQuestions: [Int]!
+    var questionBank:[Source]!
+    var currentQuestion:Int
+    
+    private init() {
+        TOTAL_QUESTIONS = 5
+        currentQuestion = -1
+        buildQuestionBank()
+        generateRandomQuestions()
     }
     
-    // random numbers function public save to randomQuestions
+    func buildQuestionBank() {
+        let resource = Bundle.main.url(forResource: "questions", withExtension: "plist")
+        let dict = NSArray(contentsOf: resource!) as! [[String:Any]]
+        questionBank = [Source]()
+        for index in 0..<dict.count {
+            let quest = dict[index]
+            questionBank.append(Source(question: quest["question"] as! String, options: quest["options"] as! [String], answer: quest["answer"] as! String))
+        }
+    }
     
-    // get Next question // returns next index of the randomQuestion array
+    func generateRandomQuestions() {
+        var indexes:[Int32] = [Int32]()
+        for _ in 0..<TOTAL_QUESTIONS {
+            let index = arc4random_uniform(UInt32(questionBank.count))
+            if !indexes.contains(Int32(index)) {
+                indexes.append(Int32(index))
+            }
+        }
+    }
+    
+    func getNextQuestion() -> Source? {
+        if (currentQuestion >= 0 && currentQuestion < TOTAL_QUESTIONS) {
+            currentQuestion += 1
+            return questionBank[currentQuestion]
+        }
+        return nil
+    }
 }

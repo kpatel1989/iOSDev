@@ -8,27 +8,38 @@
 
 import UIKit
 
-class KartikQuestion1Controller: UIViewController {
-
+class KartikQuestion1Controller: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var optionsTable: UITableView!
+    var question:Source!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let nib = UINib(nibName: "KartikQuestion1TableViewCell", bundle: nil)
+        optionsTable.register(nib, forCellReuseIdentifier: "KartikQuestion1Cell")
+        question = QuestionBank.QuestionList.getNextQuestion()!
+        questionLabel.text = question.question
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
         //QuestionBank.getNextQuestion() -> []
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return question.options.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "KartikQuestion1Cell", for: indexPath)
+        
+        cell.textLabel?.text = question.options[indexPath.row]
+        return cell
+    }
 }
