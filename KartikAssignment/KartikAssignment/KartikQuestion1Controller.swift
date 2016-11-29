@@ -12,20 +12,31 @@ class KartikQuestion1Controller: UIViewController,UITableViewDelegate,UITableVie
     
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var optionsTable: UITableView!
+    @IBOutlet weak var nextBtn: UIButton!
+    let cellIdentifier = "KartikQuestion1Cell"
     var question:Source!
+    var tableViewCells:[KartikQuestion1TableViewCell]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         let nib = UINib(nibName: "KartikQuestion1TableViewCell", bundle: nil)
-        optionsTable.register(nib, forCellReuseIdentifier: "KartikQuestion1Cell")
-        question = QuestionBank.QuestionList.getNextQuestion()!
-        questionLabel.text = question.question
+        optionsTable.register(nib, forCellReuseIdentifier: cellIdentifier)
+        optionsTable.rowHeight = UITableViewAutomaticDimension
+        optionsTable.estimatedRowHeight = 50
+        
+        let list = QuestionBank.QuestionList
+        question = list.getNextQuestion(index:0)!
+        questionLabel.text = "1. " + question.question
+        
+        tableViewCells = [KartikQuestion1TableViewCell]()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-        //QuestionBank.getNextQuestion() -> []
+    }
+    
+    @IBAction func nextBtnClickListener(_ sender: Any) {
+        
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -37,9 +48,19 @@ class KartikQuestion1Controller: UIViewController,UITableViewDelegate,UITableVie
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "KartikQuestion1Cell", for: indexPath)
-        
-        cell.textLabel?.text = question.options[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! KartikQuestion1TableViewCell
+        cell.switchListener = {
+            currentSwitch in
+            let state = currentSwitch.isOn
+            if state {
+                self.tableViewCells.forEach({ (viewCell:KartikQuestion1TableViewCell) in
+                    viewCell.switchState = false
+                })
+            }
+            currentSwitch.isOn = state
+        }
+        cell.option = question.options[indexPath.row]
+        tableViewCells.append(cell)
         return cell
     }
 }

@@ -10,6 +10,22 @@ import UIKit
 
 class KartikQuestion2TableViewCell: UITableViewCell {
 
+    var option:String = "" {
+        didSet {
+            optionButton.setTitle(option, for: UIControlState.normal)
+        }
+    }
+    
+    var clickListener:((UIButton) -> Void)? = nil
+
+    @IBOutlet weak var optionButton: UIButton!
+    
+    @IBAction func btnClick(_ sender: UIButton) {
+        if let listener = self.clickListener {
+            listener(sender)
+        }
+        
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

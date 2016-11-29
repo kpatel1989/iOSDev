@@ -23,6 +23,7 @@
 		46FDF29A1DE7241A00F1279E /* KartikQuestion2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */; };
 		46FDF2A51DE7244C00F1279E /* KartikQuestion5TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2A31DE7244C00F1279E /* KartikQuestion5TableViewCell.swift */; };
 		46FDF2E61DE870CD00F1279E /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2E51DE870CD00F1279E /* QuestionBank.swift */; };
+		46FDF2E81DEDC19900F1279E /* QuestionsBaseClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2E71DEDC19900F1279E /* QuestionsBaseClassController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KartikQuestion2TableViewCell.xib; sourceTree = "<group>"; };
 		46FDF2A31DE7244C00F1279E /* KartikQuestion5TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikQuestion5TableViewCell.swift; sourceTree = "<group>"; };
 		46FDF2E51DE870CD00F1279E /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		46FDF2E71DEDC19900F1279E /* QuestionsBaseClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsBaseClassController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,8 @@
 				46FDF2771DE7177D00F1279E /* Info.plist */,
 				46FDF27D1DE7183300F1279E /* questions.plist */,
 				46FDF27F1DE71F0400F1279E /* KartikQuestion1Controller.swift */,
-				46FDF2831DE71F2500F1279E /* KartikQuestion3Controller.swift */,
 				46FDF2811DE71F1300F1279E /* KartikQuestion2Controller.swift */,
+				46FDF2831DE71F2500F1279E /* KartikQuestion3Controller.swift */,
 				46FDF2851DE71F3300F1279E /* KartikQuestion4Controller.swift */,
 				46FDF2871DE71F3F00F1279E /* KartikQuestion5Controller.swift */,
 				46FDF2931DE723FF00F1279E /* KartikQuestion1TableViewCell.swift */,
@@ -93,6 +95,7 @@
 				46FDF2941DE723FF00F1279E /* KartikQuestion1TableViewCell.xib */,
 				46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */,
 				46FDF2E51DE870CD00F1279E /* QuestionBank.swift */,
+				46FDF2E71DEDC19900F1279E /* QuestionsBaseClassController.swift */,
 			);
 			path = KartikAssignment;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				46FDF2951DE723FF00F1279E /* KartikQuestion1TableViewCell.swift in Sources */,
 				46FDF2881DE71F3F00F1279E /* KartikQuestion5Controller.swift in Sources */,
 				46FDF2A51DE7244C00F1279E /* KartikQuestion5TableViewCell.swift in Sources */,
+				46FDF2E81DEDC19900F1279E /* QuestionsBaseClassController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

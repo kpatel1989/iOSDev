@@ -24,13 +24,13 @@ class QuestionBank {
     public static let QuestionList = QuestionBank()
     
     var TOTAL_QUESTIONS:Int
-    var randomQuestions: [Int]!
+    var randomQuestions: [Int32]!
     var questionBank:[Source]!
     var currentQuestion:Int
     
     private init() {
         TOTAL_QUESTIONS = 5
-        currentQuestion = -1
+        currentQuestion = 0
         buildQuestionBank()
         generateRandomQuestions()
     }
@@ -46,20 +46,20 @@ class QuestionBank {
     }
     
     func generateRandomQuestions() {
-        var indexes:[Int32] = [Int32]()
+        randomQuestions = [Int32]()
         for _ in 0..<TOTAL_QUESTIONS {
             let index = arc4random_uniform(UInt32(questionBank.count))
-            if !indexes.contains(Int32(index)) {
-                indexes.append(Int32(index))
+            if !randomQuestions.contains(Int32(index)) {
+                randomQuestions.append(Int32(index))
             }
         }
     }
     
-    func getNextQuestion() -> Source? {
-        if (currentQuestion >= 0 && currentQuestion < TOTAL_QUESTIONS) {
-            currentQuestion += 1
-            return questionBank[currentQuestion]
+    func getNextQuestion(index:Int) -> Source? {
+        var ques:Source? = nil
+        if (index >= 0 && index < TOTAL_QUESTIONS) {
+            ques = questionBank[Int(randomQuestions[index])]
         }
-        return nil
+        return ques
     }
 }

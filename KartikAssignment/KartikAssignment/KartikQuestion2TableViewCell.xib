@@ -15,12 +15,15 @@
             <rect key="frame" x="0.0" y="0.0" width="329" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="329" height="44"/>
+                <rect key="frame" x="0.0" y="0.0" width="329" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSP-xf-DAy">
                         <rect key="frame" x="8" y="10" width="312" height="24"/>
                         <state key="normal" title="Button"/>
+                        <connections>
+                            <action selector="btnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qU9-LF-qHD"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>
@@ -30,6 +33,9 @@
                     <constraint firstItem="kSP-xf-DAy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="k6d-cd-LNf"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="optionButton" destination="kSP-xf-DAy" id="tKN-IJ-eS2"/>
+            </connections>
             <point key="canvasLocation" x="27.5" y="52"/>
         </tableViewCell>
     </objects>

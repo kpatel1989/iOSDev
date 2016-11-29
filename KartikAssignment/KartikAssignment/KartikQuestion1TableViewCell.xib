@@ -26,6 +26,9 @@
                     </label>
                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cBJ-kS-xpv">
                         <rect key="frame" x="263" y="6" width="51" height="31"/>
+                        <connections>
+                            <action selector="switchEventChange:" destination="KGk-i7-Jjw" eventType="valueChanged" id="VOK-AO-qCm"/>
+                        </connections>
                     </switch>
                 </subviews>
                 <constraints>
@@ -38,6 +41,10 @@
                     <constraint firstAttribute="bottom" secondItem="cBJ-kS-xpv" secondAttribute="bottom" constant="6" id="yDw-np-TJp"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="optionLabel" destination="3qb-Cs-Wa2" id="MJ0-ol-3GB"/>
+                <outlet property="optionSwitch" destination="cBJ-kS-xpv" id="qGK-Lx-kZN"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>
