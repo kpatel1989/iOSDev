@@ -33,6 +33,7 @@ class KartikQuestion2Controller: UIViewController,UITableViewDelegate,UITableVie
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

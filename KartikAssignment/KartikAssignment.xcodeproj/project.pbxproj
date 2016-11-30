@@ -21,9 +21,7 @@
 		46FDF2961DE723FF00F1279E /* KartikQuestion1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46FDF2941DE723FF00F1279E /* KartikQuestion1TableViewCell.xib */; };
 		46FDF2991DE7241A00F1279E /* KartikQuestion2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2971DE7241A00F1279E /* KartikQuestion2TableViewCell.swift */; };
 		46FDF29A1DE7241A00F1279E /* KartikQuestion2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */; };
-		46FDF2A51DE7244C00F1279E /* KartikQuestion5TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2A31DE7244C00F1279E /* KartikQuestion5TableViewCell.swift */; };
 		46FDF2E61DE870CD00F1279E /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2E51DE870CD00F1279E /* QuestionBank.swift */; };
-		46FDF2E81DEDC19900F1279E /* QuestionsBaseClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF2E71DEDC19900F1279E /* QuestionsBaseClassController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +41,7 @@
 		46FDF2941DE723FF00F1279E /* KartikQuestion1TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KartikQuestion1TableViewCell.xib; sourceTree = "<group>"; };
 		46FDF2971DE7241A00F1279E /* KartikQuestion2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikQuestion2TableViewCell.swift; sourceTree = "<group>"; };
 		46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KartikQuestion2TableViewCell.xib; sourceTree = "<group>"; };
-		46FDF2A31DE7244C00F1279E /* KartikQuestion5TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KartikQuestion5TableViewCell.swift; sourceTree = "<group>"; };
 		46FDF2E51DE870CD00F1279E /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
-		46FDF2E71DEDC19900F1279E /* QuestionsBaseClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsBaseClassController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +87,9 @@
 				46FDF2871DE71F3F00F1279E /* KartikQuestion5Controller.swift */,
 				46FDF2931DE723FF00F1279E /* KartikQuestion1TableViewCell.swift */,
 				46FDF2971DE7241A00F1279E /* KartikQuestion2TableViewCell.swift */,
-				46FDF2A31DE7244C00F1279E /* KartikQuestion5TableViewCell.swift */,
 				46FDF2941DE723FF00F1279E /* KartikQuestion1TableViewCell.xib */,
 				46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */,
 				46FDF2E51DE870CD00F1279E /* QuestionBank.swift */,
-				46FDF2E71DEDC19900F1279E /* QuestionsBaseClassController.swift */,
 			);
 			path = KartikAssignment;
 			sourceTree = "<group>";
@@ -184,8 +178,6 @@
 				46FDF2841DE71F2500F1279E /* KartikQuestion3Controller.swift in Sources */,
 				46FDF2951DE723FF00F1279E /* KartikQuestion1TableViewCell.swift in Sources */,
 				46FDF2881DE71F3F00F1279E /* KartikQuestion5Controller.swift in Sources */,
-				46FDF2A51DE7244C00F1279E /* KartikQuestion5TableViewCell.swift in Sources */,
-				46FDF2E81DEDC19900F1279E /* QuestionsBaseClassController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
