@@ -15,17 +15,6 @@ class KartikQuestion5Controller: UIViewController,UICollectionViewDataSource,UIC
     var options:[UIImage] = []
     let cellIdentifier = "KartikQuestion5Cell"
     
-    @IBAction func submitBtnClick(_ sender: UIButton) {
-        let alertCtrl = UIAlertController(title: "Result", message: "Total Score", preferredStyle: .alert)
-        let playAgain = UIAlertAction(title: "Ok", style: .cancel, handler: {
-            action in
-            let navgCtrl = self.storyboard?.instantiateInitialViewController()
-            self.present(navgCtrl!, animated: true, completion: nil)
-        })
-        alertCtrl.addAction(playAgain)
-        present(alertCtrl, animated: true, completion: nil)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         question = Source(question: "Where is the cycle?",
@@ -40,7 +29,6 @@ class KartikQuestion5Controller: UIViewController,UICollectionViewDataSource,UIC
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -58,5 +46,15 @@ class KartikQuestion5Controller: UIViewController,UICollectionViewDataSource,UIC
         imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         cell.addSubview(imageView)
         return cell
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let alertCtrl = UIAlertController(title: "Result", message: "Total Score", preferredStyle: .alert)
+        let playAgain = UIAlertAction(title: "Ok", style: .cancel, handler: {
+            action in
+            let navgCtrl = self.storyboard?.instantiateInitialViewController()
+            self.present(navgCtrl!, animated: true, completion: nil)
+        })
+        alertCtrl.addAction(playAgain)
+        present(alertCtrl, animated: true, completion: nil)
     }
 }
