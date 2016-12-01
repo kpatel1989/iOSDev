@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46A91EE31DF0802C00CCC66C /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A91EE21DF0802C00CCC66C /* InitViewController.swift */; };
 		46FDF26C1DE7177D00F1279E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDF26B1DE7177D00F1279E /* AppDelegate.swift */; };
 		46FDF2711DE7177D00F1279E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FDF26F1DE7177D00F1279E /* Main.storyboard */; };
 		46FDF2731DE7177D00F1279E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FDF2721DE7177D00F1279E /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46A91EE21DF0802C00CCC66C /* InitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
 		46FDF2681DE7177D00F1279E /* KartikAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartikAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FDF26B1DE7177D00F1279E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46FDF2701DE7177D00F1279E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				46FDF2941DE723FF00F1279E /* KartikQuestion1TableViewCell.xib */,
 				46FDF2981DE7241A00F1279E /* KartikQuestion2TableViewCell.xib */,
 				46FDF2E51DE870CD00F1279E /* QuestionBank.swift */,
+				46A91EE21DF0802C00CCC66C /* InitViewController.swift */,
 			);
 			path = KartikAssignment;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				46FDF2991DE7241A00F1279E /* KartikQuestion2TableViewCell.swift in Sources */,
 				46FDF2861DE71F3300F1279E /* KartikQuestion4Controller.swift in Sources */,
+				46A91EE31DF0802C00CCC66C /* InitViewController.swift in Sources */,
 				46FDF26C1DE7177D00F1279E /* AppDelegate.swift in Sources */,
 				46FDF2E61DE870CD00F1279E /* QuestionBank.swift in Sources */,
 				46FDF2821DE71F1300F1279E /* KartikQuestion2Controller.swift in Sources */,

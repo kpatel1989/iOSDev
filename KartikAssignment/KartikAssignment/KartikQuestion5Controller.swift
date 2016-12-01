@@ -12,12 +12,29 @@ class KartikQuestion5Controller: UIViewController,UICollectionViewDataSource,UIC
 
     @IBOutlet weak var questionLabel: UILabel!
     var question:Source!
+    var options:[UIImage] = []
     let cellIdentifier = "KartikQuestion5Cell"
+    
+    @IBAction func submitBtnClick(_ sender: UIButton) {
+        let alertCtrl = UIAlertController(title: "Result", message: "Total Score", preferredStyle: .alert)
+        let playAgain = UIAlertAction(title: "Ok", style: .cancel, handler: {
+            action in
+            let navgCtrl = self.storyboard?.instantiateInitialViewController()
+            self.present(navgCtrl!, animated: true, completion: nil)
+        })
+        alertCtrl.addAction(playAgain)
+        present(alertCtrl, animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let list = QuestionBank.QuestionList
-        question = list.getNextQuestion(index: 1)!
+        question = Source(question: "Where is the cycle?",
+                          options: [], answer: "")
+        options =
+            [#imageLiteral(resourceName: "motorcycle"),
+             #imageLiteral(resourceName: "cycle"),
+             #imageLiteral(resourceName: "truck"),
+             #imageLiteral(resourceName: "jeep")]
         questionLabel.text = "5. " + question.question
     }
 
@@ -31,20 +48,15 @@ class KartikQuestion5Controller: UIViewController,UICollectionViewDataSource,UIC
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return question.options.count
+        return options.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath)
-        
-        let label = UILabel()
-        label.lineBreakMode = .byWordWrapping;
-        label.numberOfLines = 0;
-        label.text = question.options[indexPath.row]
-        label.frame = CGRect(x: 0, y: 0, width: 100, height: 50)
-        cell.sizeToFit()
-        cell.addSubview(label)
-        
+        let image = options[indexPath.row]
+        let imageView = UIImageView(image: image)
+        imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        cell.addSubview(imageView)
         return cell
     }
 }

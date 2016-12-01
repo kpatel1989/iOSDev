@@ -16,7 +16,7 @@ class KartikQuestion3Controller: UIViewController,UIPickerViewDataSource,UIPicke
     override func viewDidLoad() {
         super.viewDidLoad()
         let list = QuestionBank.QuestionList
-        question = list.getNextQuestion(index: 1)!
+        question = list.getNextQuestion(index: 2)!
         questionLabel.text = "3. " + question.question
     }
 

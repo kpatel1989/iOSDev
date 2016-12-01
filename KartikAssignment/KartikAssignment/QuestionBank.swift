@@ -27,6 +27,7 @@ class QuestionBank {
     var randomQuestions: [Int32]!
     var questionBank:[Source]!
     var currentQuestion:Int
+    var correctAns:Int!
     
     private init() {
         TOTAL_QUESTIONS = 5

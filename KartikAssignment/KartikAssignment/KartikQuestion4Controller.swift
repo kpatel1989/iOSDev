@@ -18,7 +18,7 @@ class KartikQuestion4Controller: UIViewController,UITableViewDelegate,UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         let list = QuestionBank.QuestionList
-        question = list.getNextQuestion(index: 1)!
+        question = list.getNextQuestion(index: 3)!
         questionLabel.text = "4. " + question.question
         tableview.rowHeight = UITableViewAutomaticDimension
         tableview.estimatedRowHeight = 40
