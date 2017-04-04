@@ -12,6 +12,7 @@
 		2FA640AE1E93E5ED0098972A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA640AC1E93E5ED0098972A /* Main.storyboard */; };
 		2FA640B01E93E5ED0098972A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA640AF1E93E5ED0098972A /* Assets.xcassets */; };
 		2FA640B31E93E5ED0098972A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA640B11E93E5ED0098972A /* LaunchScreen.storyboard */; };
+		2FA640BC1E93EA8D0098972A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA640BB1E93EA8D0098972A /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2FA640AF1E93E5ED0098972A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA640B21E93E5ED0098972A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FA640B41E93E5ED0098972A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA640BB1E93EA8D0098972A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA640BC1E93EA8D0098972A /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				2FA640A71E93E5ED0098972A /* GoogleSearchWithGCD */,
 				2FA640A61E93E5ED0098972A /* Products */,
+				2FA640BA1E93EA8C0098972A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				2FA640B41E93E5ED0098972A /* Info.plist */,
 			);
 			path = GoogleSearchWithGCD;
+			sourceTree = "<group>";
+		};
+		2FA640BA1E93EA8C0098972A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FA640BB1E93EA8D0098972A /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +311,7 @@
 				2FA640B91E93E5ED0098972A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
